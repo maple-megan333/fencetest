@@ -1,0 +1,168 @@
+* this is the CSS reset*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Here I am establishing the base fonts for my project*/
+body{
+font-family: 'IBM Plex Sans', sans-serif;;
+  margin: 0;
+  padding:   0;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'IBM Plex Serif', serif;
+
+}
+.container{
+    margin: auto;
+    justify-content: center;
+}
+
+.containIt{
+    min-width: 100%;
+    background: linear-gradient(180deg, #5A5766 0%, rgba(90, 87, 102, 0.33) 27.08%, rgba(255, 255, 255, 0.99) 29.72%);
+    min-height: 100vh;
+}
+
+  h1{
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    width: 90%;
+    margin:auto;
+    
+
+  }
+
+  h2{
+    font-family: IBM Plex Serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #DB2B39;
+    width: 90%;
+    margin:auto;
+    padding-top: 80px;
+  }
+  
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 45%;
+    margin: 2%;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.grid {
+    background: transparent;
+    margin: 0 auto;
+    min-height: 80vh;
+    justify-content: space-between;
+  }
+  
+  .grid:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .grid-item {
+    float: left;
+    width: 43%;
+    border-color: transparent;
+    border-width: 5px;
+    padding: 10px;
+    margin: auto;
+    max-width: 100%;
+
+
+  }
+  
+  .grid-item--width2 { 
+    width: 90%;
+    max-width: 150%;
+    height: 100px;
+    overflow:hidden;
+     }
+  
+  
+  .grid-item:hover {
+    cursor: pointer;
+  }
+  
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .grid-item.grid-item__expanded {
+    width: 66.66%;
+    z-index: 2;
+  }
+
+p{
+    text-align: right;
+    padding-top: 30px;
+}
+
+button{
+ font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+background: #DB2B39;
+border-radius: 5px;
+color: #FFFFFF;
+width: 127px;
+height: 44px;
+justify-content: center;
+border: none;
+margin-left: 70%;
+}
+  
+  
